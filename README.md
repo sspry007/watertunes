@@ -10,6 +10,7 @@ Simply build and run on your simulator.  You will need to manually add Weight da
 * Uses HealthKit for Water and Weight HIPAA secure and sharable storage
 * Stores Water/Pound goal in NSUserDefaults
 * Uses a drink modal to allow for easy standard water container sizes
+* Used static UITableViewControllers to create a reasonably fluid interface in a short amount of time
 
 ## Screen Shots
 Track           |  Visualize

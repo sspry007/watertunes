@@ -9,23 +9,42 @@
 /* Begin PBXBuildFile section */
 		5EF0DACB24899063003FC601 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0DACA24899063003FC601 /* AppDelegate.swift */; };
 		5EF0DACD24899063003FC601 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0DACC24899063003FC601 /* SceneDelegate.swift */; };
-		5EF0DACF24899063003FC601 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0DACE24899063003FC601 /* FirstViewController.swift */; };
-		5EF0DAD124899063003FC601 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0DAD024899063003FC601 /* SecondViewController.swift */; };
 		5EF0DAD424899063003FC601 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EF0DAD224899063003FC601 /* Main.storyboard */; };
 		5EF0DAD624899064003FC601 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EF0DAD524899064003FC601 /* Assets.xcassets */; };
 		5EF0DAD924899064003FC601 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EF0DAD724899064003FC601 /* LaunchScreen.storyboard */; };
+		5EF0DAED248991DD003FC601 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0DAE1248991DD003FC601 /* HealthManager.swift */; };
+		5EF0DAEE248991DD003FC601 /* GoalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0DAE4248991DD003FC601 /* GoalTableViewController.swift */; };
+		5EF0DAEF248991DD003FC601 /* VisualizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0DAE5248991DD003FC601 /* VisualizeViewController.swift */; };
+		5EF0DAF0248991DD003FC601 /* TrackTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0DAE6248991DD003FC601 /* TrackTableViewController.swift */; };
+		5EF0DAF1248991DD003FC601 /* DrinkViewTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0DAE7248991DD003FC601 /* DrinkViewTableController.swift */; };
+		5EF0DAF2248991DD003FC601 /* MKGradientGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0DAE9248991DD003FC601 /* MKGradientGenerator.swift */; };
+		5EF0DAF3248991DD003FC601 /* MKRingProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0DAEA248991DD003FC601 /* MKRingProgressView.swift */; };
+		5EF0DAF4248991DD003FC601 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5EF0DAEB248991DD003FC601 /* LICENSE */; };
+		5EF0DAF5248991DD003FC601 /* MKRingProgressLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0DAEC248991DD003FC601 /* MKRingProgressLayer.swift */; };
+		5EF0DAF9248991F0003FC601 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF0DAF8248991F0003FC601 /* HealthKit.framework */; };
+		5EF0DAFB24899290003FC601 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5EF0DAFA24899290003FC601 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5EF0DAC724899063003FC601 /* watertunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watertunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EF0DAC724899063003FC601 /* Water Tunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Water Tunes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF0DACA24899063003FC601 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EF0DACC24899063003FC601 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5EF0DACE24899063003FC601 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		5EF0DAD024899063003FC601 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		5EF0DAD324899063003FC601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EF0DAD524899064003FC601 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EF0DAD824899064003FC601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EF0DADA24899064003FC601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EF0DAE1248991DD003FC601 /* HealthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		5EF0DAE4248991DD003FC601 /* GoalTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalTableViewController.swift; sourceTree = "<group>"; };
+		5EF0DAE5248991DD003FC601 /* VisualizeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualizeViewController.swift; sourceTree = "<group>"; };
+		5EF0DAE6248991DD003FC601 /* TrackTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackTableViewController.swift; sourceTree = "<group>"; };
+		5EF0DAE7248991DD003FC601 /* DrinkViewTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkViewTableController.swift; sourceTree = "<group>"; };
+		5EF0DAE9248991DD003FC601 /* MKGradientGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKGradientGenerator.swift; sourceTree = "<group>"; };
+		5EF0DAEA248991DD003FC601 /* MKRingProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKRingProgressView.swift; sourceTree = "<group>"; };
+		5EF0DAEB248991DD003FC601 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5EF0DAEC248991DD003FC601 /* MKRingProgressLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKRingProgressLayer.swift; sourceTree = "<group>"; };
+		5EF0DAF6248991F0003FC601 /* watertunes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = watertunes.entitlements; sourceTree = "<group>"; };
+		5EF0DAF8248991F0003FC601 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		5EF0DAFA24899290003FC601 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EF0DAF9248991F0003FC601 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,15 +62,17 @@
 		5EF0DABE24899063003FC601 = {
 			isa = PBXGroup;
 			children = (
+				5EF0DAFA24899290003FC601 /* README.md */,
 				5EF0DAC924899063003FC601 /* watertunes */,
 				5EF0DAC824899063003FC601 /* Products */,
+				5EF0DAF7248991F0003FC601 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		5EF0DAC824899063003FC601 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5EF0DAC724899063003FC601 /* watertunes.app */,
+				5EF0DAC724899063003FC601 /* Water Tunes.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,16 +80,64 @@
 		5EF0DAC924899063003FC601 /* watertunes */ = {
 			isa = PBXGroup;
 			children = (
+				5EF0DAF6248991F0003FC601 /* watertunes.entitlements */,
 				5EF0DACA24899063003FC601 /* AppDelegate.swift */,
 				5EF0DACC24899063003FC601 /* SceneDelegate.swift */,
-				5EF0DACE24899063003FC601 /* FirstViewController.swift */,
-				5EF0DAD024899063003FC601 /* SecondViewController.swift */,
+				5EF0DAE0248991DD003FC601 /* HealthManager */,
+				5EF0DAE2248991DD003FC601 /* UI */,
 				5EF0DAD224899063003FC601 /* Main.storyboard */,
 				5EF0DAD524899064003FC601 /* Assets.xcassets */,
 				5EF0DAD724899064003FC601 /* LaunchScreen.storyboard */,
 				5EF0DADA24899064003FC601 /* Info.plist */,
 			);
 			path = watertunes;
+			sourceTree = "<group>";
+		};
+		5EF0DAE0248991DD003FC601 /* HealthManager */ = {
+			isa = PBXGroup;
+			children = (
+				5EF0DAE1248991DD003FC601 /* HealthManager.swift */,
+			);
+			path = HealthManager;
+			sourceTree = "<group>";
+		};
+		5EF0DAE2248991DD003FC601 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5EF0DAE3248991DD003FC601 /* View Controllers */,
+				5EF0DAE8248991DD003FC601 /* Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5EF0DAE3248991DD003FC601 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5EF0DAE4248991DD003FC601 /* GoalTableViewController.swift */,
+				5EF0DAE5248991DD003FC601 /* VisualizeViewController.swift */,
+				5EF0DAE6248991DD003FC601 /* TrackTableViewController.swift */,
+				5EF0DAE7248991DD003FC601 /* DrinkViewTableController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		5EF0DAE8248991DD003FC601 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5EF0DAE9248991DD003FC601 /* MKGradientGenerator.swift */,
+				5EF0DAEA248991DD003FC601 /* MKRingProgressView.swift */,
+				5EF0DAEB248991DD003FC601 /* LICENSE */,
+				5EF0DAEC248991DD003FC601 /* MKRingProgressLayer.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5EF0DAF7248991F0003FC601 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EF0DAF8248991F0003FC601 /* HealthKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,7 +157,7 @@
 			);
 			name = watertunes;
 			productName = watertunes;
-			productReference = 5EF0DAC724899063003FC601 /* watertunes.app */;
+			productReference = 5EF0DAC724899063003FC601 /* Water Tunes.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -130,6 +200,8 @@
 			files = (
 				5EF0DAD924899064003FC601 /* LaunchScreen.storyboard in Resources */,
 				5EF0DAD624899064003FC601 /* Assets.xcassets in Resources */,
+				5EF0DAFB24899290003FC601 /* README.md in Resources */,
+				5EF0DAF4248991DD003FC601 /* LICENSE in Resources */,
 				5EF0DAD424899063003FC601 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,9 +213,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EF0DAD124899063003FC601 /* SecondViewController.swift in Sources */,
-				5EF0DACF24899063003FC601 /* FirstViewController.swift in Sources */,
 				5EF0DACB24899063003FC601 /* AppDelegate.swift in Sources */,
+				5EF0DAF3248991DD003FC601 /* MKRingProgressView.swift in Sources */,
+				5EF0DAF2248991DD003FC601 /* MKGradientGenerator.swift in Sources */,
+				5EF0DAED248991DD003FC601 /* HealthManager.swift in Sources */,
+				5EF0DAEE248991DD003FC601 /* GoalTableViewController.swift in Sources */,
+				5EF0DAF0248991DD003FC601 /* TrackTableViewController.swift in Sources */,
+				5EF0DAF5248991DD003FC601 /* MKRingProgressLayer.swift in Sources */,
+				5EF0DAF1248991DD003FC601 /* DrinkViewTableController.swift in Sources */,
+				5EF0DAEF248991DD003FC601 /* VisualizeViewController.swift in Sources */,
 				5EF0DACD24899063003FC601 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +366,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = watertunes/watertunes.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FGQ72W8U63;
 				INFOPLIST_FILE = watertunes/Info.plist;
@@ -296,9 +375,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.spry.watertunes;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Water Tunes";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -306,6 +385,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = watertunes/watertunes.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FGQ72W8U63;
 				INFOPLIST_FILE = watertunes/Info.plist;
@@ -314,9 +394,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.spry.watertunes;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Water Tunes";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

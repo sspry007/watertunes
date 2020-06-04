@@ -22,7 +22,6 @@
 		5EF0DAF4248991DD003FC601 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5EF0DAEB248991DD003FC601 /* LICENSE */; };
 		5EF0DAF5248991DD003FC601 /* MKRingProgressLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0DAEC248991DD003FC601 /* MKRingProgressLayer.swift */; };
 		5EF0DAF9248991F0003FC601 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF0DAF8248991F0003FC601 /* HealthKit.framework */; };
-		5EF0DAFB24899290003FC601 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5EF0DAFA24899290003FC601 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +44,10 @@
 		5EF0DAF6248991F0003FC601 /* watertunes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = watertunes.entitlements; sourceTree = "<group>"; };
 		5EF0DAF8248991F0003FC601 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		5EF0DAFA24899290003FC601 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5EF0DB0024899BE7003FC601 /* Drink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Drink.png; sourceTree = "<group>"; };
+		5EF0DB0124899BE7003FC601 /* Goal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Goal.png; sourceTree = "<group>"; };
+		5EF0DB0224899BE7003FC601 /* Visualize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Visualize.png; sourceTree = "<group>"; };
+		5EF0DB0324899BE7003FC601 /* Track.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Track.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				5EF0DAFA24899290003FC601 /* README.md */,
+				5EF0DB0024899BE7003FC601 /* Drink.png */,
+				5EF0DB0124899BE7003FC601 /* Goal.png */,
+				5EF0DB0324899BE7003FC601 /* Track.png */,
+				5EF0DB0224899BE7003FC601 /* Visualize.png */,
 				5EF0DAC924899063003FC601 /* watertunes */,
 				5EF0DAC824899063003FC601 /* Products */,
 				5EF0DAF7248991F0003FC601 /* Frameworks */,
@@ -200,7 +207,6 @@
 			files = (
 				5EF0DAD924899064003FC601 /* LaunchScreen.storyboard in Resources */,
 				5EF0DAD624899064003FC601 /* Assets.xcassets in Resources */,
-				5EF0DAFB24899290003FC601 /* README.md in Resources */,
 				5EF0DAF4248991DD003FC601 /* LICENSE in Resources */,
 				5EF0DAD424899063003FC601 /* Main.storyboard in Resources */,
 			);

@@ -131,10 +131,10 @@
 		5EF0DAE8248991DD003FC601 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5EF0DAE9248991DD003FC601 /* MKGradientGenerator.swift */,
-				5EF0DAEA248991DD003FC601 /* MKRingProgressView.swift */,
 				5EF0DAEB248991DD003FC601 /* LICENSE */,
+				5EF0DAEA248991DD003FC601 /* MKRingProgressView.swift */,
 				5EF0DAEC248991DD003FC601 /* MKRingProgressLayer.swift */,
+				5EF0DAE9248991DD003FC601 /* MKGradientGenerator.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";

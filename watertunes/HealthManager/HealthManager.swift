@@ -176,7 +176,7 @@ class HealthManager {
     
     private func getTodaySamples(for sampleType: HKQuantityType, completion: @escaping ([HKQuantitySample]?, Error?) -> ()) {
       
-        let mostRecentPredicate = HKQuery.predicateForSamples(withStart: Date.distantPast,
+        let mostRecentPredicate = HKQuery.predicateForSamples(withStart: startOfDay(),
                                                             end: Date(),
                                                             options: .strictEndDate)
         let sortDescriptor = NSSortDescriptor(key: HKSampleSortIdentifierStartDate,

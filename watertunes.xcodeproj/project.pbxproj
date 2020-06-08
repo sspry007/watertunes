@@ -120,9 +120,9 @@
 		5EF0DAE3248991DD003FC601 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				5EF0DAE4248991DD003FC601 /* GoalTableViewController.swift */,
-				5EF0DAE5248991DD003FC601 /* VisualizeViewController.swift */,
 				5EF0DAE6248991DD003FC601 /* TrackTableViewController.swift */,
+				5EF0DAE5248991DD003FC601 /* VisualizeViewController.swift */,
+				5EF0DAE4248991DD003FC601 /* GoalTableViewController.swift */,
 				5EF0DAE7248991DD003FC601 /* DrinkViewTableController.swift */,
 			);
 			path = "View Controllers";
